@@ -1,0 +1,94 @@
+.container-fluid{
+    background-color: rgb(134, 205, 249);
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgb(34, 34, 34);
+    height: 70px;
+}
+.navbar .container{
+    height: 70px;
+}
+.nav-item{
+    padding: 0 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.txt{
+    max-width: 280px;
+    height: 30px;
+    display: flex;
+}
+.box-left{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+.box-right{
+    max-width: 130px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.box-right p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: gray;
+}
+
+.card-body h1{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.navigation{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape{
+    width: 100%;
+    height: 140px;
+}
+.btns{
+    width: 100%;
+    height: 90px;
+    color: white;
+}
+
+@media (max-width: 1000px){
+    .navbar{
+        height: auto;
+    }
+    .container{
+        height: auto;
+    }
+    .nav-item{
+        height: auto;
+    }
+    #right_item{
+        margin-top: -10px;
+    }
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    .nav-item{
+        padding-left: 10px;
+    }
+    .txt{
+        margin: auto;
+        justify-content: center;
+    }
+    .card-body h1{
+        text-align: center;
+    }
+    .card-text{
+        text-align: center;
+    }
+}
